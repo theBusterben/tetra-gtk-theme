@@ -23,10 +23,6 @@ Tetra (formerly or codenamed "Project Beaucoup") is Adwaita-based gtk+ theme wit
 > Openbox support is considered for future alongside LXDE/PIXEL desktop support.
 - Qt/Non-gtk+ desktops (Plasma 5, LXQt...)
 
-
-### Ubuntu 18.10
-> Ubuntu 18.10 ships with GNOME 3.30 desktop, but Nautilus file manager is still version 3.26 because that goddamn desktop icons feature, Ubuntu 18.04 (and 16.04*) support will remain, but not for 18.10 since it will broke Nautilus pathbar styling (unless if Ubuntu Desktop/UG team/someone backport Nautilus 3.30 to 18.10 via PPA)
-
 # (GNOME Shell) Typography
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is used as default primary font for GNOME shell theme, In some Linux distributions, Source Sans Pro is available in their repository, Noto Sans is used as fallback.
 
