@@ -1,6 +1,7 @@
 <img src="https://github.com/hrdwrrsk/tetra-gtk-theme/raw/master/logo.png" alt="Logo" align="left" height="100" width="100"/> Tetra
 ======
 Tetra (formerly or codenamed "Project Beaucoup") is Adwaita-based gtk+ theme with design influence from elementary OS and Vertex gtk+ theme.
+**Ubuntu 18.10-specific branch only**
 
 -------------------
 ![Screenshot](Screenshot.png)
