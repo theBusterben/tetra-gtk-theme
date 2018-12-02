@@ -1,72 +1,36 @@
-<img src="https://github.com/hrdwrrsk/tetra-gtk-theme/blob/master/data/logo.svg" alt="Logo" align="left" height="48" width="48"/> Tetra
-======
-Tetra (formerly or codenamed "Project Beaucoup") is Adwaita-based gtk+ theme with design influence from elementary OS stylesheet/theme.
+Fork of tetra 
 
 -------------------
 ![Screenshot](/data/Screenshot.png)
-![Screenshot](/data/Screenshot-dark.png)
 -------------------
-This theme has come with **3 variants**
-
-**Variants** | **Description** | **Preview**
-:-: | :-: | :-:
-**Default** | Light variant with dark panel | ![Default](/data/variant-default.svg)
-**Dark** | Dark variant | ![Dark](/data/variant-dark.svg)
-**Light** | Light variant with light panel (and GNOME shell theme) | ![Light](/data/variant-light.svg)
 
 # Supported desktop environments
 - GNOME 3
-- Xfce
-- Budgie
-- MATE (partial, No WM theme for marco and still not completed.)
 
-### Not supported desktops
-- Cinnamon
-> Not happening. See you in 2019.
-- Pantheon
-> Elementary OS is NOT compatible.
-- LXDE
-- Window Managers (Openbox, enlightenment...)
-> Openbox support is considered for future alongside LXDE/PIXEL desktop support.
-- Qt/Non-gtk+ desktops (Plasma 5, LXQt...)
+### Changes
+- changed searchbar blue/red border styling to be inset
+- redone headerbar button styling
+- added dropdown hover styling
+- changed gnome tweaks headerbar switch slider height
+- gave treeview.view.progressbar more radius & candy stripe styling
+- made right click menu bit more round
+- added more styling to right click menu color
+- removed separation outline line between tabs and window
+- close button on tabs made bit more round
+- made notebook tabs 1px wider
+- changed looks of volume bar slider
+- changed looks of scale slider
+- reduced overscroll to be less black
+- replaced dotted lines with blur for horizontal & vertical overshoot
+- made nautilus popup when deleting a bit darker
+- sidebar panel separators put back
+- reduced vertical spacing nautilus sidebar places
+- added padding between icon and text for nautilus sidebar
+- changed hightlight color for text & menus
+- add more space between nautilus hover line
 
-
-### Ubuntu 18.10
-> Ubuntu 18.10 ships with GNOME 3.30 desktop, but Nautilus file manager is still version 3.26 because that goddamn desktop icons feature, Ubuntu 18.04 (and 16.04*) support will remain, but not for 18.10 since it will broke Nautilus pathbar styling (unless if Ubuntu Desktop/UG team/someone backport Nautilus 3.30 to 18.10 via PPA)
-**Update: See ubuntu-1810 branch for special version for Ubuntu 18.10**
-**Update2: Deprecated. Ubuntu 18.10 is NOT REALLY, really supported.**
-
-# (GNOME Shell) Typography
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is used as default primary font for GNOME shell theme, In some Linux distributions, Source Sans Pro is available in their repository, Noto Sans is used as fallback.
-
-# Installation
-### Dependencies
-before you installing this theme, you need this package installed on your system:
-- `sassc` for compiling sass css sources
-- `gtk` 3.22
-- [Ubuntu 16.04 users read this](https://github.com/hrdwrrsk/tetra-gtk-theme/wiki/Ubuntu-16.04-users-read-this)
-- `bc` (required before running `install.sh` script)
-
-#### Required for rendering assets
-- `inkscape`
-- `optipng`
-
-Then run this command:
-
-```
-git clone https://github.com/hrdwrrsk/tetra-gtk-theme.git
-cd tetra-gtk-theme
-
-# System-wide install
-sudo ./install.sh
-
-# Local install
-./install.sh -d ~/.themes
-```
-
-# Reporting bugs
-report it via "Issues" tab, Pull request for bugfixes also accepted.
-for suggestion about design add [design] tag, for DEs/gtk+ app theming/etc. support, add [feature request] tag
+- added titlebuttons (close/maximize/minimize)
+> unfinished
 
 # Credits
 - Adwaita gtk+ theme
