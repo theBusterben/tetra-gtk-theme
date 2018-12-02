@@ -1,7 +1,7 @@
 Fork of tetra 
 
 -------------------
-![Screenshot](/data/Screenshot.png)
+![Screenshot](/Screenshot.png)
 -------------------
 
 # Supported desktop environments
@@ -29,8 +29,7 @@ Fork of tetra
 - changed hightlight color for text & menus
 - add more space between nautilus hover line
 
-- added titlebuttons (close/maximize/minimize)
-> unfinished
+- added titlebuttons (close/maximize/minimize), *still unfinished*
 
 # Credits
 - Adwaita gtk+ theme
