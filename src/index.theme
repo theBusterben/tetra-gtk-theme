@@ -1,9 +1,9 @@
 [X-GNOME-Metatheme]
-Name=Tetra
+Name=Custom
 Type=X-GNOME-Metatheme
-Comment=Adwaita-based theme with design influence from elementary OS stylesheet/gtk+ theme
+Comment=Custom adwaita-based theme with influence from elementaryOS
 Encoding=UTF-8
-GtkTheme=Tetra
+GtkTheme=Custom
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24
